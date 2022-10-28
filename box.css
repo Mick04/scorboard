@@ -1,0 +1,9 @@
+body {
+    position: absolute;
+    left: 85px;
+    top: 2%;
+    font-family:'cursive';
+    padding: 200px 200px;
+    margin: 0;
+    text-align: center;
+}

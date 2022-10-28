@@ -1,0 +1,39 @@
+#homeScoreText {
+    /* home-points-text */
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 135px;
+    top: 125px;
+    font-family: 'Times New Roman,Times,serif;';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    font-family: digital;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+#guestScoreText {
+    /* home-points-text */
+
+
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 345px;
+    top: 125px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    text-align: center;
+    color: #F94F6D;
+
+}

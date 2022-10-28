@@ -1,0 +1,15 @@
+#newGame {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 365px;
+    left: 260;
+    font-size: 20px;
+    background: #1B244A;
+    border-radius: 20px;
+    border-color: rgb(13, 255, 0);
+    border-width: 2;
+    border-style: solid;
+    color: #EEEEEE;
+}
+
