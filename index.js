@@ -6,24 +6,36 @@ let score = 0
 function HomePoints(score)  {
     home_score = home_score + score      //home_score+ score
     homeScoreEl .textContent = home_score
-    console.log('home_score = '+ home_score)
-    console.log(score)
+    
     if (guest_score < home_score) {
         guestScoreEl .style.color = 'red'
         homeScoreEl .style.color = 'green'
     }
+    else if (home_score === guest_score ) {
+        guestScoreEl .style.color = 'red'
+        homeScoreEl .style.color = 'red'
+    }
+    console.log('home_score = '+ home_score)
+    console.log(score)
 }
 function guestPoints(score)  {
     guest_score = guest_score + score      //home_score+ score
     guestScoreEl .textContent = guest_score
-    console.log('guest_score = '+ guest_score)
-    console.log(score)
+    
     if (guest_score > home_score) {
         guestScoreEl .style.color = 'green'
         homeScoreEl .style.color = 'red'
     }
+    else if (home_score === guest_score ) {
+        guestScoreEl .style.color = 'red'
+        homeScoreEl .style.color = 'red'
+    }
+    console.log('guest_score = '+ guest_score)
+    console.log(score)
 }
 function newGame() {
+    home_score = 0
+    guest_score =0
     homeScoreEl .textContent = 0
     guestScoreEl .textContent = 0
     console.log('guest_score = '+ guest_score)
